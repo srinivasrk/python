@@ -16,7 +16,7 @@ from setuptools import setup
 
 # Do not edit these constants. They will be updated automatically
 # by scripts/update-client.sh.
-CLIENT_VERSION = "10.0.0-snapshot"
+CLIENT_VERSION = "11.0.0-snapshot"
 PACKAGE_NAME = "kubernetes"
 DEVELOPMENT_STATUS = "4 - Beta"
 
@@ -77,5 +77,6 @@ setup(
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
 )
